@@ -15,6 +15,10 @@ def _fibonacci(lista: list, start: int, end: int):
 
     return _fibonacci(lista, start + 1, end)
 
+if __name__ == '__main__':
+    num = int(input("Ingrese un número: "))
+    print(Fibonacci(num))
+
 
 
 

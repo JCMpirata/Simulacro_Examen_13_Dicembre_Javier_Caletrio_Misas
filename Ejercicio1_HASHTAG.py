@@ -4,6 +4,7 @@ def checkio(text: str) -> list:
         if i.startswith("#"):
             lista.append(i.replace("#", ""))
 
+
     return lista
 
 if __name__ == '__main__':

@@ -6,3 +6,6 @@ def rotate(matriz):
         for j in range(i):
             matriz[i][j], matriz[j][i] = matriz[j][i], matriz[i][j]
     return matriz
+
+if __name__ == "__main__":
+    print(rotate(matriz))

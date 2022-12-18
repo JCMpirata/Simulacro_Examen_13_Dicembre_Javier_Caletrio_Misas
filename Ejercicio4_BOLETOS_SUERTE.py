@@ -6,4 +6,6 @@ def luck_check(str):
     else:
         first_half = str[:half]
         second_half = str[half + 1:]
-        
+
+    return sum(int(x) for x in first_half) == sum(int(x) for x in second_half) 
+    

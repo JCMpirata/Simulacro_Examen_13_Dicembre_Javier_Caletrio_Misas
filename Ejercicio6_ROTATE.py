@@ -15,3 +15,14 @@ def rotate(matriz, direccion):
             for j in range(i):
                 matriz[i][j], matriz[j][i] = matriz[j][i], matriz[i][j]
         return matriz
+
+    else:
+        return "Error"
+
+if __name__ == "__main__":
+    print(rotate(matriz, "clockwise"))
+    print(rotate(matriz, "counter-clockwise"))
+    print(rotate(matriz, "error"))
+
+
+
